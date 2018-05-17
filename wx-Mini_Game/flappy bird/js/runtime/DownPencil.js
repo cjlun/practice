@@ -5,7 +5,7 @@ export class DownPencil extends Pencil{
   constructor(top){
      const img=Sprite.getImg("DownPencil");
      super(img);
-     this.y=top+DataStore.canvas.height/5;
+     this.y=top+DataStore.canvas.height/5+40;
   }
   draw(){
     super.draw();
