@@ -84,6 +84,7 @@
 	right:-1px;
 	top:42px;
 	min-height:124px;
+	z-index:7;
 }
 .cart .dropdown-menu .cart-c{
     float:left;
