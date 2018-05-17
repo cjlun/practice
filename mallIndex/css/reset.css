@@ -1,0 +1,16 @@
+/*重置*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size:12px;
+}
+ul{
+	list-style:none;
+}
+a{
+	display:block;
+	text-decoration:none;
+	color:#000;
+}

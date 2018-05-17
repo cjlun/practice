@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>慕淘网</title>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+    <header class="header">
+    	<div class="container cf">
+            <div class="header-left lf">
+            	<a class="red lf">亲，请登录</a>
+            	<a class="lf">免费注册</a>
+            	<a class="lf">手机逛慕淘</a>
+            </div><!--头部左侧-->
+            <div class="header-right rf">
+            	<div class="myshop dropdown lf" data-toggle="myshop">
+            		<a class="dropdown-toggle" >我的慕淘</a>
+            		<div class="dropdown-menu">
+            			<div class="myshop-item">已买到的宝贝</div>
+            			<div class="myshop-item">我的足迹</div>
+            		</div>
+            	</div>
+
+            	<div class="myshop dropdown lf" data-toggle="myshop">
+            		<a class="dropdown-toggle">收藏夹</a>
+            		<div class="dropdown-menu">
+            			<div class="myshop-item">收藏的宝贝</div>
+            			<div class="myshop-item">收藏的店铺</div>
+            		</div>
+            	</div>
+                
+                <div class="myshop dropdown lf">
+                	<a class="dropdown-toggle">商品分类</a>
+                </div>
+
+            	<div class="myshop dropdown lf" data-toggle="myshop">
+            		<a class="dropdown-toggle">卖家中心</a>
+            		<div class="dropdown-menu">
+                          <!-- 懒加载,动态添加数据 -->
+
+            		</div>
+            	</div>
+
+            	<div class="myshop dropdown lf" data-toggle="myshop">
+            		<a class="dropdown-toggle">联系客服</a>
+            		<div class="dropdown-menu dropdown-right">
+            			<div class="myshop-item">消费者客服</div>
+            			<div class="myshop-item">卖家客服</div>
+            		</div>
+            	</div>
+            </div><!--头部右侧-->   
+
+    	</div><!--居中容器-->
+    </header><!-- 页面头部 -->
+    
+    <section class="logo">
+    	<div class="container cf">
+    		<div class="logo-img lf">
+                 <img src="img/header-logo.png">      
+            </div><!--logo图片-->
+            <div class="search lf">
+                <form action="https://s.taobao.com/search" class="search-form">
+                <input class="search-content" name="q" type="text" placeholder="灵魂美食一元抢" autocomplete="off" />
+                <input type="submit" class="search-btn" value="搜索" />
+                </form><!--form表单数据提交出去-->
+                <div class="search-menu">
+                   <!--  <div class="search-menu-item">1111</div>
+                    <div class="search-menu-item">2222</div>
+                    <div class="search-menu-item">3333</div> -->
+                </div>
+            </div><!--搜索框-->
+            <div class="cart dropdown rf" data-toggle="cart">
+                    <a class="dropdown-btn"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;&nbsp;&nbsp;购物车&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<span class="buying-num">0</span></a>
+                    <div class="dropdown-menu">
+                        <div class="cart-content cf">
+                            <img class="cart-c" src="img/cart-dropdown.png">购物车里还没有商品，赶紧去选购吧!
+                        </div>
+                    </div>
+            </div><!--购物车-->
+    	</div><!--居中容器-->
+    </section><!--logo区域-->
+
+    <section class="nav">
+    	<div class="container">
+    		<ul class="nav-links cf">
+               <li class="nav-link lf">
+                   <a href="#">数码城</a>
+               </li>   
+               <li class="nav-link lf">
+                   <a href="#">天黑黑</a>
+               </li>   
+               <li class="nav-link lf">
+                   <a href="#">团购</a>
+               </li>   
+               <li class="nav-link lf">
+                   <a href="#">发现</a>
+               </li>   
+               <li class="nav-link lf">
+                   <a href="#">二手特价</a>
+               </li>   
+               <li class="nav-link lf">
+                   <a href="#">名品汇</a>
+               </li>   
+            </ul>
+    	</div><!--居中容器-->
+    </section><!--导航区域-->
+
+    <section class="banner">
+    	<div class="container cf">
+    		<div class="category lf">
+                <div class="category-title">
+                    <a href="#">商品分类</a>
+                </div><!--商品分类-->
+
+                <div class="category-items">
+                    
+                    <div class="category-item dropdown" data-toggle="category-item">
+                        <div class="dropdown-btn cf">
+                            <a href="#">家用电器</a>
+                            <span class="dropdown-arrow rf">&gt;</span>
+                        </div>
+                        <div class="dropdown-menu">
+                            <!-- <dl class="category-details cf">
+                                <dt class="category-details-title lf">理财</dt>
+                                <dd class="category-details-item lf">
+                                    <a class="details-link"href="#">京东小金库</a>
+                                    <a class="details-link"href="#">京东小金库</a>
+                                    <a class="details-link"href="#">京东小金库</a>
+                                    <a class="details-link"href="#">京东小金库</a>
+                                    <a class="details-link"href="#">京东小金库</a>
+                                    <a class="details-link"href="#">京东小金库</a>
+                                    <a class="details-link"href="#">京东小金库</a>
+                                    <a class="details-link"href="#">京东小金库</a>
+                                </dd>
+                            </dl> -->
+
+
+                        </div>
+                    </div><!--每个商品-->
+
+                    <div class="category-item dropdown" data-toggle="category-item">
+                        <div class="dropdown-btn cf">
+                            <a href="#">手机</a>、<a href="#">运营商</a>、<a href="#">数码</a>
+                            <span class="dropdown-arrow rf">&gt;</span>
+                        </div>
+                        <div class="dropdown-menu">
+                           <!-- 动态加载 -->
+                        </div>
+                    </div><!--每个商品-->
+
+                    <div class="category-item dropdown" data-toggle="category-item">
+                        <div class="dropdown-btn cf">
+                            <a href="#" >电脑</a>、<a href="#">办公</a>
+                            <span class="dropdown-arrow rf">&gt;</span>
+                        </div>
+                        <div class="dropdown-menu">
+                           <!-- 动态加载 -->
+                        </div>
+                    </div><!--每个商品-->
+
+                    <div class="category-item dropdown" data-toggle="category-item">
+                        <div class="dropdown-btn cf">
+                            <a href="#" >家居</a>、<a href="#">家具</a>、<a href="#">家装</a>、<a href="#">厨具</a>
+                            <span class="dropdown-arrow rf">&gt;</span>
+                        </div>
+                        <div class="dropdown-menu">
+                            <!-- 动态加载 -->
+                        </div>
+                    </div><!--每个商品-->
+
+                    <div class="category-item dropdown" data-toggle="category-item">
+                        <div class="dropdown-btn cf">
+                            <a href="#" >男装</a>、<a href="#">女装</a>、<a href="#">童装</a>、<a href="#">内衣</a>
+                            <span class="dropdown-arrow rf">&gt;</span>
+                        </div>
+                        <div class="dropdown-menu">
+                            <!-- 动态加载 -->
+                        </div>
+                    </div><!--每个商品-->
+
+                    <div class="category-item dropdown" data-toggle="category-item">
+                        <div class="dropdown-btn cf">
+                            <a href="#" >化妆</a>、<a href="#">清洁</a>、<a href="#">宠物</a>
+                            <span class="dropdown-arrow rf">&gt;</span>
+                        </div>
+                        <div class="dropdown-menu">
+                           <!-- 动态加载 -->
+                        </div>
+                    </div><!--每个商品-->
+
+                    <div class="category-item dropdown" data-toggle="category-item">
+                        <div class="dropdown-btn cf">
+                            <a href="#" >运动户外</a>、<a href="#">钟表</a>
+                            <span class="dropdown-arrow rf">&gt;</span>
+                        </div>
+                        <div class="dropdown-menu">
+                           <!-- 动态加载 -->
+                        </div>
+                    </div><!--每个商品-->
+
+                    <div class="category-item dropdown" data-toggle="category-item">
+                        <div class="dropdown-btn cf">
+                            <a href="#">汽车</a>、<a href="#">汽车用品</a>
+                            <span class="dropdown-arrow rf">&gt;</span>
+                        </div>
+                        <div class="dropdown-menu">
+                           <!-- 动态加载 -->
+                        </div>
+                    </div><!--每个商品-->
+
+
+                    <div class="category-item dropdown" data-toggle="category-item">
+                        <div class="dropdown-btn cf">
+                            <a href="#" >母婴</a>、<a href="#">玩具乐器</a>
+                            <span class="dropdown-arrow rf">&gt;</span>
+                        </div>
+                        <div class="dropdown-menu">
+                            <!-- 动态加载 -->
+                        </div>
+                    </div><!--每个商品-->
+
+                    <div class="category-item dropdown" data-toggle="category-item">
+                        <div class="dropdown-btn cf">
+                            <a href="#">食品</a>、<a href="#">酒类</a>、<a href="#">生鲜</a>、<a href="#">特产</a>
+                            <span class="dropdown-arrow rf">&gt;</span>
+                        </div>
+                        <div class="dropdown-menu">
+                            <!-- 动态加载 -->
+                        </div>
+                    </div><!--每个商品-->
+
+                    <div class="category-item dropdown" data-toggle="category-item">
+                        <div class="dropdown-btn cf">
+                            <a href="#" >医药保健</a>
+                            <span class="dropdown-arrow rf">&gt;</span>
+                        </div>
+                        <div class="dropdown-menu">
+                            <!-- 动态加载 -->
+                        </div>
+                    </div><!--每个商品-->
+
+                    <div class="category-item dropdown" data-toggle="category-item">
+                        <div class="dropdown-btn cf">
+                            <a href="#" >图书</a>、<a href="#">音像</a>、<a href="#">电子书</a>
+                            <span class="dropdown-arrow rf">&gt;</span>
+                        </div>
+                        <div class="dropdown-menu">
+                            <!-- 动态加载 -->
+                        </div>
+                    </div><!--每个商品-->
+
+                    <div class="category-item dropdown" data-toggle="category-item">
+                        <div class="dropdown-btn cf">
+                            <a href="#" >彩票</a>、<a href="#">旅行</a>、<a href="#">充值</a>、<a href="#">票务</a>
+                            <span class="dropdown-arrow rf">&gt;</span>
+                        </div>
+                        <div class="dropdown-menu">
+                            <!-- 动态加载 -->
+                        </div>
+                    </div><!--每个商品-->
+
+                    <div class="category-item dropdown" data-toggle="category-item">
+                        <div class="dropdown-btn cf">
+                            <a href="#" >理财</a>、<a href="#">众筹</a>、<a href="#">白条</a>、<a href="#">保险</a>
+                            <span class="dropdown-arrow rf">&gt;</span>
+                        </div>
+                        <div class="dropdown-menu">
+                            <!-- 动态加载 -->
+                        </div>
+                    </div><!--每个商品-->
+
+                </div><!--商品列表-->
+            </div><!--商品分类-->
+
+            <div class="slideImgs lf">
+              <div class="wrap">
+                <div class="slideImg">
+                    <img src="img/1.png">
+                </div>
+                <div class="slideImg">
+                    <img src="img/2.png">
+                </div>
+                <div class="slideImg">
+                    <img src="img/3.png">
+                </div>
+                <div class="slideImg">
+                    <img src="img/4.png">
+                </div>
+              </div><!--一个大容器存放图片-->
+
+              <div class="arrow arrow-left">&gt;</div>
+              <div class="arrow arrow-right">&gt;</div>
+              <div class="btn-group cf">
+                  <div class="btn lf active"></div>
+                  <div class="btn lf"></div>
+                  <div class="btn lf"></div>
+                  <div class="btn lf"></div>
+              </div>
+            </div><!--轮播图-->
+
+            <div class="side rf">
+                <div class="newspaper">
+                    <div class="newspaper-header cf">
+                        <div class="newspaper-title lf">
+                            慕快报
+                        </div>
+                        <div class="newspaper-more rf">
+                            <a href="#">更多&nbsp;&gt;</a>
+                        </div>
+                    </div><!--快报头部-->
+                    <div class="newspaper-body">
+                        <div class="newspaper-item">
+                            <a href="#">
+                                <b>[特惠]</b>
+                                精选图书每满150减50
+                            </a>
+                        </div><!--每行消息-->
+
+                        <div class="newspaper-item">
+                            <a href="#" class="red">
+                                <b>[公告]</b>
+                                因广州图书仓搬仓升级配送延
+                            </a>
+                        </div><!--每行消息-->
+
+                        <div class="newspaper-item">
+                            <a href="#">
+                                <b>[特惠]</b>
+                                爆款手机12期免息 抽奖赢电视
+                            </a>
+                        </div><!--每行消息-->
+
+                        <div class="newspaper-item">
+                            <a href="#">
+                                <b>[公告]</b>
+                                广东、福建受台风影响配送延
+                            </a>
+                        </div><!--每行消息-->
+
+                        <div class="newspaper-item">
+                            <a href="#">
+                                <b>[特惠]</b>
+                                大闸蟹领券满399减180
+                            </a>
+                        </div><!--每行消息-->
+
+
+                    </div>
+                </div><!--快报-->
+                <div class="function cf">
+                    <a href="#" target="_blank" class="function-item lf">
+                        <div class="function-img">
+                        <i class="icon">&#xe612;</i>
+                        </div>
+                        <div class="function-text">
+                            话费
+                        </div>
+                    </a><!--单个功能-->
+
+                    <a href="#" target="_blank" class="function-item lf">
+                        <div class="function-img">
+                        <i class="icon">&#xe611;</i>
+                        </div>
+                        <div class="function-text">
+                            机票
+                        </div>
+                    </a><!--单个功能-->
+
+                    <a href="#" target="_blank" class="function-item lf">
+                        <div class="function-img">
+                        <i class="icon">&#xe607;</i>
+                        </div>
+                        <div class="function-text">
+                            电影票
+                        </div>
+                    </a><!--单个功能-->
+
+                    <a href="#" target="_blank" class="function-item lf">
+                        <div class="function-img">
+                        <i class="icon">&#xe60e;</i>
+                        </div>
+                        <div class="function-text">
+                            游戏
+                        </div>
+                    </a><!--单个功能-->
+
+                    <a href="#" target="_blank" class="function-item lf">
+                        <div class="function-img">
+                        <i class="icon">&#xe605;</i>
+                        </div>
+                        <div class="function-text">
+                            彩票
+                        </div>
+                    </a><!--单个功能-->
+
+                    <a href="#" target="_blank" class="function-item lf">
+                        <div class="function-img">
+                        <i class="icon">&#xe603;</i>
+                        </div>
+                        <div class="function-text">
+                            加油卡
+                        </div>
+                    </a><!--单个功能-->
+
+                    <a href="#" target="_blank" class="function-item lf">
+                        <div class="function-img">
+                        <i class="icon">&#xe602;</i>
+                        </div>
+                        <div class="function-text">
+                            酒店
+                        </div>
+                    </a><!--单个功能-->
+
+                    <a href="#" target="_blank" class="function-item lf">
+                        <div class="function-img">
+                        <i class="icon">&#xe601;</i>
+                        </div>
+                        <div class="function-text">
+                            火车票
+                        </div>
+                    </a><!--单个功能-->
+
+                    <a href="#" target="_blank" class="function-item lf">
+                        <div class="function-img">
+                        <i class="icon">&#xe60d;</i>
+                        </div>
+                        <div class="function-text">
+                            众筹
+                        </div>
+                    </a><!--单个功能-->
+
+                    <a href="#" target="3" class="function-item lf">
+                        <div class="function-img">
+                        <i class="icon">&#xe60c;</i>
+                        </div>
+                        <div class="function-text">
+                            理财
+                        </div>
+                    </a><!--单个功能-->
+
+                    <a href="#" target="_blank" class="function-item lf">
+                        <div class="function-img">
+                        <i class="icon">&#xe610;</i>
+                        </div>
+                        <div class="function-text">
+                            礼品卡
+                        </div>
+                    </a><!--单个功能-->
+
+                    <a href="#" target="_blank" class="function-item lf">
+                        <div class="function-img">
+                        <i class="icon">&#xe60f;</i>
+                        </div>
+                        <div class="function-text">
+                            白条
+                        </div>
+                    </a><!--单个功能-->
+
+
+                </div><!--各种功能连接-->
+                <div class="img-show">
+                    <img src="img/focus-ad.png">
+                </div>
+            </div><!--右侧边栏-->
+
+    	</div><!--居中容器-->
+    </section><!--banner区域-->
+  
+    <section class="onsale">
+    	<div class="container">
+    		<div class="slideImgs">
+                <div class="wrap">
+                    <div class="slideImg">
+                         <img src="img/todays-slider/1.png"
+                        ><img src="img/todays-slider/2.png"
+                        ><img src="img/todays-slider/3.png"
+                        ><img src="img/todays-slider/4.png"
+                        ><img src="img/todays-slider/5.png">
+                    </div><!--每张轮播图-->
+
+                    <div class="slideImg">
+                         <img src="img/todays-slider/6.png"
+                        ><img src="img/todays-slider/7.png"
+                        ><img src="img/todays-slider/8.png"
+                        ><img src="img/todays-slider/9.png"
+                        ><img src="img/todays-slider/10.png">
+                    </div><!--每张轮播图-->
+                </div> 
+
+                <div class="arrow arrow-left">&gt;</div>
+                <div class="arrow arrow-right">&gt;</div>
+
+            </div>
+    	</div><!--居中容器-->
+    </section><!--促销展示-->
+
+  <section class="floors">
+    <section class="floor">
+    	<div class="container">
+            <!--动态加载数据-->
+            <img class="lazy-loading" src="img/floor/loading.gif">
+    	</div><!--居中容器-->
+    </section><!--楼层区域1F/5F-->
+
+
+    <section class="floor">
+        <div class="container">
+             <!-- <div class="floor-header">
+                <h2 class="floor-title lf">
+                    <span class="floor-figure">1F</span>&nbsp;
+                    <span class="floor-name">服装鞋包</span>
+                </h2>
+                <div class="category-tabs rf">
+                    <span class="category-tab red">大牌</span
+                    >&nbsp;&nbsp;|&nbsp;&nbsp;<span class="category-tab">男装</span
+                    >&nbsp;&nbsp;|&nbsp;&nbsp;<span class="category-tab">女装</span>
+                </div>   
+            <div class="triangle-groups">
+              <div class="triangle-group">
+                <div class="triangle"></div>  
+                <div class="triangle-layer"></div>
+              </div> 
+              <div class="triangle-group">
+                <div class="triangle move2"></div>  
+                <div class="triangle-layer move2"></div>
+              </div> 
+              <div class="triangle-group">
+                <div class="triangle move3"></div>  
+                <div class="triangle-layer move3"></div>
+              </div> 
+            </div>
+
+            </div> --><!--楼层头部-->
+            
+            <!-- <div class="floor-body">
+              <div class="floor-categorys">    
+                <div class="floor-category">
+                    <div class="floor-category-img">
+                        <a href="#" target="_blank">
+                            <img src="img/floor/1/1/1.png">
+                        </a>
+                    </div>
+                    <div class="floor-category-name">
+                        <a href="#" target="_blank">
+                            匡威男棒球开衫外套2015
+                        </a>
+                    </div>
+                    <div class="floor-category-price red">
+                            ￥479
+                    </div>
+                </div> --><!--每个商品-->
+
+                
+              <!-- </div> --><!--每页商品1/3-->
+
+              
+
+            <!-- </div> --><!--楼层主体-->
+            <!--动态加载数据-->
+            <img class="lazy-loading" src="img/floor/loading.gif">
+        </div><!--居中容器-->
+    </section><!--楼层区域2F/5F-->
+    
+    <section class="floor">
+        <div class="container">
+            <!--动态加载数据-->
+            <img class="lazy-loading" src="img/floor/loading.gif">
+        </div><!--居中容器-->
+    </section><!--楼层区域3F/5F-->
+  
+    <section class="floor">
+        <div class="container">
+            <!--动态加载数据-->
+            <img class="lazy-loading" src="img/floor/loading.gif">
+        </div><!--居中容器-->
+    </section><!--楼层区域4F/5F-->
+
+    <section class="floor">
+        <div class="container">
+            <!--动态加载数据-->
+            <img class="lazy-loading" src="img/floor/loading.gif">
+        </div><!--居中容器-->
+    </section><!--楼层区域5F/5F-->
+  
+  </section><!--所有楼层-->
+
+    <section class="friend-link">
+    	<div class="container cf">
+    		<div class="link-item promise lf">
+                <dl class="wrap-label cf">
+                    <dt>
+                        <h4 class="link-title">消费者保障</h4>
+                    </dt>
+                    <dd class="link-content"><a href="#" target="_blank">保障范围</a></dd>
+                    <dd class="link-content"><a href="#" target="_blank">退货退款流程</a></dd>
+                    <dd class="link-content"><a href="#" target="_blank">服务中心</a></dd>
+                    <dd class="link-content"><a href="#" target="_blank">更多特色服务</a></dd>
+                </dl>
+
+
+            </div><!--消费者保障-->
+
+            <div class="link-item lead lf">
+                <dl class="wrap-label cf">
+                    <dt>
+                        <h4 class="link-title">新手上路</h4>
+                    </dt>
+                    <dd class="link-content"><a href="#" target="_blank">新手专区</a></dd>
+                    <dd class="link-content"><a href="#" target="_blank">消费警示</a></dd>
+                    <dd class="link-content"><a href="#" target="_blank">交易安全</a></dd>
+                    <dd class="link-content"><a href="#" target="_blank">24小时在线帮助</a></dd>
+                    <dd class="link-content"><a href="#" target="_blank">免费开店</a></dd>
+                </dl>
+            </div><!--新手上路-->
+
+            <div class="link-item pay lf">
+                <dl class="wrap-label cf">
+                    <dt>
+                        <h4 class="link-title">付款方式</h4>
+                    </dt>
+                    <dd class="link-content"><a href="#" target="_blank">快捷支付</a></dd>
+                    <dd class="link-content"><a href="#" target="_blank">信用卡</a></dd>
+                    <dd class="link-content"><a href="#" target="_blank">余额包</a></dd>
+                    <dd class="link-content"><a href="#" target="_blank">蜜蜂花啊</a></dd>
+                    <dd class="link-content"><a href="#" target="_blank">货到付款</a></dd>
+                </dl>
+            </div><!--付款方式-->
+
+            <div class="link-item special lf">
+                <dl class="wrap-label cf">
+                    <dt>
+                        <h4 class="link-title">慕商特色</h4>
+                    </dt>
+                    <dd class="link-content"><a href="#" target="_blank">手机慕淘</a></dd>
+                    <dd class="link-content"><a href="#" target="_blank">慕淘信</a></dd>
+                    <dd class="link-content"><a href="#" target="_blank">大众评审</a></dd>
+                    <dd class="link-content"><a href="#" target="_blank">B格指南</a></dd>
+                </dl>
+            </div><!--慕商特色-->
+    	</div><!--居中容器-->
+    </section><!--友情链接区域-->
+
+    <footer class="footer">
+    	<div class="footer-content cf">
+            <a class="footer-link" href="#" target="_blank">关于慕淘</a>
+            <a class="footer-link" href="#" target="_blank">合作伙伴 </a>
+            <a class="footer-link" href="#" target="_blank">营销中心</a>
+            <a class="footer-link" href="#" target="_blank">廉正举报 </a>
+            <a class="footer-link" href="#" target="_blank">联系客服</a>
+            <a class="footer-link" href="#" target="_blank">开放平台</a>
+            <a class="footer-link" href="#" target="_blank">诚征英才</a>
+            <a class="footer-link" href="#" target="_blank">联系我们</a>
+            <a class="footer-link" href="#" target="_blank">网站地图</a>
+            <a class="footer-link" href="#" target="_blank">法律声明</a>
+            <a class="footer-link" href="#" target="_blank">知识产权</a>
+            <p class="footer-right lf">
+                © 2014 imooc.com All Rights Reserved
+            </p>
+        </div>
+    </footer><!--页脚区域-->
+
+    <div class="floor-elevator">
+        <a  href="javascript:;" class="floor-num">F1</a>
+        <a  href="javascript:;" class="floor-num">F2</a>
+        <a  href="javascript:;" class="floor-num">F3</a>
+        <a  href="javascript:;" class="floor-num">F4</a>
+        <a  href="javascript:;" class="floor-num">F5</a>
+    </div>
+
+    <div class="toolbar">
+        <a href="javascript:;" class="toolbar-item" >
+            <i class="toolbar-icon icon">&#xe617;</i>
+            <span class="toolbar-text">会员</span>
+        </a>
+        <a href="javascript:;" class="toolbar-item" >
+            <i class="toolbar-icon icon">&#xe613;</i>
+            <span class="toolbar-text">购物车</span>
+        </a>
+        <a href="javascript:;" class="toolbar-item" >
+            <i class="toolbar-icon icon">&#xe616;</i>
+            <span class="toolbar-text">我的关注</span>
+        </a>
+        <a href="javascript:;" class="toolbar-item" >
+            <i class="toolbar-icon icon">&#xe614;</i>
+            <span class="toolbar-text">我的消息</span>
+        </a>
+        <a href="javascript:;" class="toolbar-item toTop" >
+            <i class="toolbar-icon icon">&#xe615;</i>
+            <span class="toolbar-text">顶部</span>
+        </a>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/iconfont.js"></script>
+    <script type="text/javascript" src="js/dropdown.js"></script>
+    <script type="text/javascript" src="js/search.js"></script>
+    <script type="text/javascript" src="js/slide.js"></script>
+    <script type="text/javascript" src="js/floor.js"></script>
+    <script type="text/javascript" src="js/buildFloor.js"></script>
+    <script type="text/javascript" src="js/floorElevator.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
