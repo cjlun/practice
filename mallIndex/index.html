@@ -2,16 +2,16 @@
 <html>
 <head>
 	<meta charset="utf-8">
+<!-- 	<metahttp-equiv="X-UA-Compatible"content="IE=9; IE=8; IE=7; IE=EDGE"> -->
 	<title>慕淘网</title>
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/base.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
     <link rel="stylesheet" type="text/css" href="css/iconfont.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
-    <header class="header">
+    <div class="header">
     	<div class="container cf">
             <div class="header-left lf">
             	<a class="red lf">亲，请登录</a>
@@ -57,9 +57,9 @@
             </div><!--头部右侧-->   
 
     	</div><!--居中容器-->
-    </header><!-- 页面头部 -->
+    </div><!-- 页面头部 -->
     
-    <section class="logo">
+    <div class="logo">
     	<div class="container cf">
     		<div class="logo-img lf">
                  <img src="img/header-logo.png">      
@@ -84,9 +84,9 @@
                     </div>
             </div><!--购物车-->
     	</div><!--居中容器-->
-    </section><!--logo区域-->
+    </div><!--logo区域-->
 
-    <section class="nav">
+    <div class="nav">
     	<div class="container">
     		<ul class="nav-links cf">
                <li class="nav-link lf">
@@ -109,9 +109,9 @@
                </li>   
             </ul>
     	</div><!--居中容器-->
-    </section><!--导航区域-->
+    </div><!--导航区域-->
 
-    <section class="banner">
+    <div class="banner">
     	<div class="container cf">
     		<div class="category lf">
                 <div class="category-title">
@@ -470,9 +470,9 @@
             </div><!--右侧边栏-->
 
     	</div><!--居中容器-->
-    </section><!--banner区域-->
+    </div><!--banner区域-->
   
-    <section class="onsale">
+    <div class="onsale">
     	<div class="container">
     		<div class="slideImgs">
                 <div class="wrap">
@@ -498,18 +498,18 @@
 
             </div>
     	</div><!--居中容器-->
-    </section><!--促销展示-->
+    </div><!--促销展示-->
 
-  <section class="floors">
-    <section class="floor">
+  <div class="floors">
+    <div class="floor">
     	<div class="container">
             <!--动态加载数据-->
             <img class="lazy-loading" src="img/floor/loading.gif">
     	</div><!--居中容器-->
-    </section><!--楼层区域1F/5F-->
+    </div><!--楼层区域1F/5F-->
 
 
-    <section class="floor">
+    <div class="floor">
         <div class="container">
              <!-- <div class="floor-header">
                 <h2 class="floor-title lf">
@@ -565,32 +565,32 @@
             <!--动态加载数据-->
             <img class="lazy-loading" src="img/floor/loading.gif">
         </div><!--居中容器-->
-    </section><!--楼层区域2F/5F-->
+    </div><!--楼层区域2F/5F-->
     
-    <section class="floor">
+    <div class="floor">
         <div class="container">
             <!--动态加载数据-->
             <img class="lazy-loading" src="img/floor/loading.gif">
         </div><!--居中容器-->
-    </section><!--楼层区域3F/5F-->
+    </div><!--楼层区域3F/5F-->
   
-    <section class="floor">
+    <div class="floor">
         <div class="container">
             <!--动态加载数据-->
             <img class="lazy-loading" src="img/floor/loading.gif">
         </div><!--居中容器-->
-    </section><!--楼层区域4F/5F-->
+    </div><!--楼层区域4F/5F-->
 
-    <section class="floor">
+    <div class="floor">
         <div class="container">
             <!--动态加载数据-->
             <img class="lazy-loading" src="img/floor/loading.gif">
         </div><!--居中容器-->
-    </section><!--楼层区域5F/5F-->
+    </div><!--楼层区域5F/5F-->
   
-  </section><!--所有楼层-->
+  </div><!--所有楼层-->
 
-    <section class="friend-link">
+    <div class="friend-link">
     	<div class="container cf">
     		<div class="link-item promise lf">
                 <dl class="wrap-label cf">
@@ -644,9 +644,9 @@
                 </dl>
             </div><!--慕商特色-->
     	</div><!--居中容器-->
-    </section><!--友情链接区域-->
+    </div><!--友情链接区域-->
 
-    <footer class="footer">
+    <div class="footer">
     	<div class="footer-content cf">
             <a class="footer-link" href="#" target="_blank">关于慕淘</a>
             <a class="footer-link" href="#" target="_blank">合作伙伴 </a>
@@ -663,7 +663,7 @@
                 © 2014 imooc.com All Rights Reserved
             </p>
         </div>
-    </footer><!--页脚区域-->
+    </div><!--页脚区域-->
 
     <div class="floor-elevator">
         <a  href="javascript:;" class="floor-num">F1</a>
@@ -696,7 +696,9 @@
         </a>
     </div>
 
-    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script>
+    window.jQuery || document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"><\/script>');
+    </script>
     <script type="text/javascript" src="js/iconfont.js"></script>
     <script type="text/javascript" src="js/dropdown.js"></script>
     <script type="text/javascript" src="js/search.js"></script>
