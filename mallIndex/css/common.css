@@ -356,7 +356,7 @@
 .triangle-group:first-of-type{
 	display:block;
 }
-.triangle{
+/*.triangle{
 	position:absolute;
 	bottom:0px;
 	right:113px;
@@ -367,7 +367,7 @@
 	border-bottom:8px solid #f01414;
 }/*红色三角形*/
 
-.triangle-layer{
+/*.triangle-layer{
 	position:absolute;
 	bottom:-2px;
 	right:113px;
@@ -377,13 +377,13 @@
 	border-right:5px solid transparent;
 	border-bottom:8px solid white;
 }/*白色三角形*/
-
-.move2{
+/**/
+/*.move2{
 	right:68px;
 }
 .move3{
 	right:23px;
-}
+}**//*/
 
 
 
