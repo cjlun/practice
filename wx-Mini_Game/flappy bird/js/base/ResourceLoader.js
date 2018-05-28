@@ -23,5 +23,4 @@ export class ResourceLoader{
   static create(){
     return new ResourceLoader();
   }
-  // 为什么要使用create？
 }
